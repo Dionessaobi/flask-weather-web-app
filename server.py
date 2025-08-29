@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request   # Import Flask framework and utilities
 from weather import get_current_weather # Import custom weather function
-from waitress import serve # Import production server (not used yet)
+# from waitress import serve # Import production server (not used yet)
 
 app = Flask(__name__) # Create Flask application
 
